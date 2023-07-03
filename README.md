@@ -1,3 +1,4 @@
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -157,6 +158,4 @@ Feel free to check the [issues page](https://github.com/HtetWaiYan7191/math-magi
 This project is [MIT](https://github.com/HtetWaiYan7191/math-magicians/blob/project-set-up/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
