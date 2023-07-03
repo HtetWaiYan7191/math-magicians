@@ -1,22 +1,22 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
 .output-result {
-    grid-column: 1/5;
-    text-align: end;
+  grid-column: 1/5;
+  text-align: end;
+  background-color: gray;
+  color: #fff;
+  padding: 10px;
 }
 
 .container {
-    margin: 0 auto;
-    width: 50%;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    background-color: yellow;
-    text-align: center;
-}
-
-.container:last-child {
-    grid-column: 2/5;
+  margin: 2rem auto;
+  width: 30%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  border: 1px solid black;
 }
