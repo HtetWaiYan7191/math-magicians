@@ -1,10 +1,8 @@
-<a name="readme-top"></a>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [� Table of Contents](#-table-of-contents)
+- [📗 Table of Contents](#-table-of-contents)
 - [📖 \[Math\_\_magicians\] ](#-math__magicians-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
