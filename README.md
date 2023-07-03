@@ -155,7 +155,7 @@ Feel free to check the [issues page](https://github.com/HtetWaiYan7191/math-magi
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://choosealicense.com/licenses/mit/#) licensed.
+This project is [MIT](https://github.com/HtetWaiYan7191/math-magicians/blob/project-set-up/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
