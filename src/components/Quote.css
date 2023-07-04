@@ -1,24 +1,24 @@
 .quote-container {
-    width: 50%;
-    margin: 0 auto;
-    padding: 10px;
-    display: flex;
-    flex-direction: column; 
-    border: 1px solid black;
-    text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  text-align: center;
 }
 
 .middle {
-    text-align: center;
-    width: 20%;
-    margin: 0 auto;
+  text-align: center;
+  width: 20%;
+  margin: 0 auto;
 }
 
 .quote-container span {
-    margin: 20px 0;
-    font-weight: 600;
+  margin: 20px 0;
+  font-weight: 600;
 }
 
 .quote {
-    line-height: 27px;
+  line-height: 27px;
 }
