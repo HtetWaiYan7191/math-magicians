@@ -18,6 +18,7 @@ function Calculator() {
       <div className="output-result">{next || total || operation || 0 }</div>
       {numbers.map((number) => <Buttons number={number} key={number} handleInput={handleInput} />)}
     </div>
+
   );
 }
 
