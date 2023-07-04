@@ -8,7 +8,6 @@ function Quote() {
 
   useEffect(() => {
     const fetchData = async () => {
-      console.log('fetchData');
       const category = 'happiness';
       const url = `https://api.api-ninjas.com/v1/quotes?category=${category}`;
       const apiKey = 'h4lyJHiRHcwWlzfvQjccBw==vq4qYlL6Iybi4fRC';
