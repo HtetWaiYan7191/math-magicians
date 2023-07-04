@@ -4,11 +4,11 @@ import PropTypes from 'prop-types';
 
 const Buttons = ({ number }) => {
   if (number === '\u00F7' || number === 'x' || number === '-' || number === '+' || number === '=') {
-    return <div className="input-button orange">{number}</div>;
+    return <button type="button" className="input-button orange">{number}</button>;
   } if (number === '0') {
-    return <div className="input-button zero">{number}</div>;
+    return <button type="button" className="input-button zero">{number}</button>;
   }
-  return <div className="input-button">{number}</div>;
+  return <button type="button" className="input-button">{number}</button>;
 };
 
 Buttons.propTypes = {
