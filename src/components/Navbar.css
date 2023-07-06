@@ -3,7 +3,15 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
-    background-color: yellow;
+    background-color:rgb(15, 23, 42);
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 500;
+    color:#22D3EE
 }
 
 nav ul {
@@ -16,6 +24,15 @@ nav ul li {
 }
 
 nav ul li a {
+    font-size: 20px;
     text-decoration: none;
-    color: black;
+    color: #EEEEEE;
+}
+
+.active {
+    color: #22D3EE;
+}
+
+nav ul a:hover {
+    color: #22D3EE;
 }
