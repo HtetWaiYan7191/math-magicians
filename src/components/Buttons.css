@@ -2,9 +2,9 @@
   border: 1px solid rgb(15, 23, 42);
   background-color: rgb(30 41 59);
   padding: 10px 12px;
- color: #22d3ee;
- font-size: 20px;
- text-align: center;
+  color: #22d3ee;
+  font-size: 20px;
+  text-align: center;
 }
 
 .input-button:hover {
