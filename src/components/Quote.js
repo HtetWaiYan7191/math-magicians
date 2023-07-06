@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Quote.css';
+import { ImSpinner10 } from 'react-icons/im';
 
 function Quote() {
   const [data, setData] = useState([{ quote: '', author: '', category: '' }]);
@@ -31,17 +32,20 @@ function Quote() {
 
   if (hasError) return <div className="middle">Something went wrong!</div>;
 
-  if (loading) return <div className="middle">Loading...</div>;
+  if (loading) return <div className="middle"><ImSpinner10 className="rotate" /></div>;
   return (
-    <div className="quote-container">
-      <div className="quote">{data.quote}</div>
-      <span>
-        By
-        {' '}
-        {' '}
-        {data.author}
-      </span>
+    <div className="hero">
+      <div className="quote-container">
+        <div className="quote">{data.quote}</div>
+        <span>
+          By
+          {' '}
+          {' '}
+          {data.author}
+        </span>
+      </div>
     </div>
+
   );
 }
 
