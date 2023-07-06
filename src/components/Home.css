@@ -1,0 +1,41 @@
+main {
+  background-color: rgb(27, 36, 56);
+  color: #5a5a5a;
+  height: 100vh;
+}
+
+h2 {
+  font-size: 38px;
+  text-align: center;
+  padding-top: 3rem;
+  margin-bottom: 3rem;
+  color: #22d3ee;
+}
+
+main p {
+  width: 50%;
+  line-height: 2rem;
+  border: 1px solid #22d3ee;
+  padding: 10px 15px;
+  margin-left: 20px;
+  color: rgb(182, 184, 185);
+  text-align: justify;
+  font-size: 18px;
+  border-radius: 6px;
+  transform: translate(-100%);
+}
+
+.reload {
+  transform: translateX(0);
+  transition: all 1.5s ease;
+}
+
+.second-para {
+  margin-top: 3rem;
+  transform: translateX(200%);
+}
+
+.rightLoad {
+  transform: translateX(70%);
+  transition: all 1.5s ease;
+}
