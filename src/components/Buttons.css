@@ -1,6 +1,15 @@
 .input-button {
-  border: 1px solid rgb(199, 198, 198);
-  padding: 10px;
+  border: 1px solid rgb(15, 23, 42);
+  background-color: rgb(30 41 59);
+  padding: 10px 12px;
+ color: #22d3ee;
+ font-size: 20px;
+ text-align: center;
+}
+
+.input-button:hover {
+  background-color: #22d3ee;
+  color: black;
 }
 
 .zero {
@@ -8,6 +17,14 @@
 }
 
 .orange {
-  background-color: orange;
-  border: 1px solid #fff;
+  background-color: rgb(15, 23, 42);
+  color: #22d3ee;
+  font-size: 1.5rem;
+  border: 1px solid #22d3ee;
+}
+
+.orange:hover {
+  border: 1px solid black;
+  background-color: #22d3ee;
+  color: black;
 }

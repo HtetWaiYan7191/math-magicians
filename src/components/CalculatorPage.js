@@ -6,7 +6,7 @@ const CalculatorPage = () => (
   <div>
     <Navbar />
     <main>
-      <h1>Lets do some maths</h1>
+      <h2>Lets do some maths</h2>
       <Calculator />
     </main>
   </div>
