@@ -148,7 +148,8 @@ Feel free to check the [issues page](https://github.com/HtetWaiYan7191/math-magi
 
 ## 🙏 Acknowledgments
 
-- I would like to thank Microverse for this opportunity.
+- I would like to thank Microverse for this opportunity. 
+- I would like to give credit to the tailwind css [Tailwind_CSS](https://tailwindcss.com/docs/letter-spacing#customizing-your-theme) page for color ideas . 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LICENSE -->
