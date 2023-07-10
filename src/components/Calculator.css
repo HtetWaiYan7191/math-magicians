@@ -7,9 +7,10 @@
 .output-result {
   grid-column: 1/5;
   text-align: end;
-  background-color: gray;
-  color: #fff;
+  background-color: #22d3ee;
+  color: rgb(49, 49, 49);
   padding: 10px;
+  font-size: 20px;
 }
 
 .container {

@@ -1,24 +1,54 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .quote-container {
   width: 50%;
-  margin: 0 auto;
-  padding: 10px;
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
+  border: 1px solid #22d3ee;
   text-align: center;
+  padding: 10px 15px;
+  color: #cdccccf5;
+  margin: 6rem auto;
 }
 
 .middle {
   text-align: center;
   width: 20%;
   margin: 0 auto;
+  font-size: larger;
+  color: #22d3ee;
+  padding-top: 10rem;
 }
 
 .quote-container span {
   margin: 20px 0;
   font-weight: 600;
+  color: #22d3ee;
 }
 
 .quote {
   line-height: 27px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.rotate {
+  animation-name: rotateAnimation;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
