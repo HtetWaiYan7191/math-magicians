@@ -1,4 +1,8 @@
 import operate from './operate';
+test('should run the moduleys function', () => {
+  const result3 = operate(4, 2, '%');
+  expect(result3).toEqual('0');
+});
 
 describe('operate', () => {
   test('should addition two numbers correctly', () => {
@@ -19,10 +23,5 @@ describe('operate', () => {
   test('should divide two numbers correctly', () => {
     const result3 = operate(4, 2, '÷');
     expect(result3).toEqual('2');
-  });
-
-  test('should run the moduleys function', () => {
-    const result3 = operate(4, 2, '%');
-    expect(result3).toEqual('0');
   });
 });
