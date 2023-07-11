@@ -21,7 +21,7 @@ describe('operate', () => {
     expect(result3).toEqual('2');
   });
 
-  test('should run the moduleys function', () => {
+  test('should run the modules function', () => {
     const result3 = operate(4, 2, '%');
     expect(result3).toEqual('0');
   });
